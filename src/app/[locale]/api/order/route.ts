@@ -1,4 +1,4 @@
-import WelcomeEmail from "@/app/emails/WelcomeEmail";
+import WelcomeEmail from "@/app/[locale]/emails/WelcomeEmail";
 import { OrderSchema } from "@/lib/types";
 import { prisma } from "@/utils/prisma"
 import { render } from "@react-email/components";
